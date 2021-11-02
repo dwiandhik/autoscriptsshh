@@ -4,8 +4,6 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 echo "Checking VPS"
-exit 0
-fi
 apt install jq curl -y
 DOMAIN=domain kalian
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
