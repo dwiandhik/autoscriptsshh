@@ -4,8 +4,6 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 echo "Checking VPS"
-exit 0
-fi
 clear
 IP=$(wget -qO- icanhazip.com);
 echo "Please enter the username you want to set (do not repeat, does not support Chinese, will be reported incorrect!)"
