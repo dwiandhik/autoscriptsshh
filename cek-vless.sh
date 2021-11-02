@@ -4,8 +4,6 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 echo "Checking VPS"
-exit 0
-fi
 echo -n > /tmp/other.txt
 data=( `cat /etc/v2ray/vless.json | grep '^###' | cut -d ' ' -f 2`);
 echo "-------------------------------";
