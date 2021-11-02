@@ -1,0 +1,2 @@
+# autoscriptsshh
+script ssh ok
