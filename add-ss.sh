@@ -4,8 +4,6 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 echo "Checking VPS"
-exit 0
-fi
 clear
 IP=$(wget -qO- icanhazip.com);
 lastport1=$(grep "port_tls" /etc/shadowsocks-libev/akun.conf | tail -n1 | awk '{print $2}')
