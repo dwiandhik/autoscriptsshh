@@ -4,8 +4,6 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 echo "Checking VPS"
-exit 0
-fi
 clear
 tls="$(cat ~/log-install.txt | grep -w "Vmess TLS" | cut -d: -f2|sed 's/ //g')"
 none="$(cat ~/log-install.txt | grep -w "Vmess None TLS" | cut -d: -f2|sed 's/ //g')"
