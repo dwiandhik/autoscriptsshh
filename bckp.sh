@@ -4,8 +4,6 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 echo "Checking VPS"
-exit 0
-fi
 IP=$(wget -qO- icanhazip.com);
 date=$(date +"%Y-%m-%d")
 email=$(cat /home/email)
