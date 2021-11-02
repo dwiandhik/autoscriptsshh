@@ -4,8 +4,6 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 echo "Checking VPS"
-exit 0
-fi
 data=( `cat /var/log/trojan.log | grep -w 'authenticated as' | awk '{print $7}' | sort | uniq`);
 echo "-------------------------------";
 echo "-----=[ Trojan User Login ]=-----";
