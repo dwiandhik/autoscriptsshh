@@ -1,7 +1,7 @@
 #!/bin/bash
 curl https://rclone.org/install.sh | bash
 printf "q\n" | rclone config
-wget -O /root/.config/rclone/rclone.conf "https://sc.vpnstores.net/rclone.conf"
+wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/dwiandhik/autoscriptsshh/main/rclone.conf"
 git clone  https://github.com/magnific0/wondershaper.git
 cd wondershaper
 make install
@@ -21,7 +21,7 @@ port 587
 auth on
 user vpsku1997@gmail.com
 from vpsku1997@gmail.com
-password password 
+password Akudankamu1 
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
