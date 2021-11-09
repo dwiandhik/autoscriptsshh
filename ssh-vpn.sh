@@ -1,5 +1,5 @@
 #!/bin/bash
-# By Horasss
+# By Dw_Hanz
 #
 # ==================================================
 
@@ -15,10 +15,10 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=www.vpnstores.net
-organizationalunit=www.vpnstores.net
-commonname=www.vpnstores.net
-email=admin@vpnstores.net
+organization=www.Dwvpnstores.net
+organizationalunit=www Dwvpnstores.net
+commonname=www.Dwvpnstores.net
+email=dwiandhika6286@gmail.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/dwiandhik/autoscriptsshh/main/password"
