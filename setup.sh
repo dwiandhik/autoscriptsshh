@@ -103,12 +103,12 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Dev/Main                : Horas Marolop Amsal Siregar"  | tee -a log-install.txt
-echo "   - Telegram                : T.me/Horasss"  | tee -a log-install.txt
-echo "   - Instagram               : @horas_96"  | tee -a log-install.txt
-echo "   - Whatsapp                : 082386143124"  | tee -a log-install.txt
-echo "   - Facebook                : https://www.facebook.com/Marlosirega" | tee -a log-install.txt
-echo "------------------Script Created By Horas Marolop Amsal Siregar-----------------" | tee -a log-install.txt
+echo "   - Dev/Main                : dwiandhik"  | tee -a log-install.txt
+echo "   - Telegram                : D"  | tee -a log-install.txt
+echo "   - Instagram               : @Dw_hanz"  | tee -a log-install.txt
+echo "   - Whatsapp                : 089666408036"  | tee -a log-install.txt
+echo "   - Facebook                : https://www.facebook.com/Dwimettius" | tee -a log-install.txt
+echo "------------------Script Created By Dw_Hanz -----------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
 sleep 15
