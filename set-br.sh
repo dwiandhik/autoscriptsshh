@@ -19,7 +19,7 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user vpsku1997n@gmail.com
+user vpsku1997@gmail.com
 from vpsku1997@gmail.com
 password password 
 logfile ~/.msmtp.log
