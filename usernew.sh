@@ -10,6 +10,7 @@ read -p "Password : " Pass
 read -p "Expired (hari): " masaaktif
 
 IP=$(wget -qO- icanhazip.com);
+domain=$(cat /etc/v2ray/domain);
 ssl="$(cat ~/log-install.txt | grep -w "Stunnel4" | cut -d: -f2)"
 sqd="$(cat ~/log-install.txt | grep -w "Squid" | cut -d: -f2)"
 ovpn="$(netstat -nlpt | grep -i openvpn | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2)"
@@ -35,7 +36,7 @@ echo -e "SSH & OpenVPN Account Info"
 echo -e "Username       : $Login "
 echo -e "Password       : $Pass"
 echo -e "==============================="
-echo -e "Domain         : domain"
+echo -e "Domain         : $domain"
 echo -e "Host           : $IP"
 echo -e "OpenSSH        : 22"
 echo -e "Dropbear       : 109, 143"
