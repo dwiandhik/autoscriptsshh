@@ -51,7 +51,7 @@ chmod +x xp
 chmod +x limit-speed
 echo "0 6 * * * root clear-log && reboot" > /etc/crontab
 echo "0 0 * * * root xp" > /etc/crontab
-0 1 * * * root delete
+echo "0 1 * * * root delete > /etc/crontab
 cd
 echo "1.4" > /home/ver
 clear
