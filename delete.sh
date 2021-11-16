@@ -20,7 +20,7 @@ clear
                tgl=`echo $tglexp |awk -F" " '{print $3}'`
                while [ ${#tgl} -lt 2 ]
                do
-               tgl="0"$tgl
+               tgl="1"$tgl
                done
                while [ ${#username} -lt 15 ]
                do
