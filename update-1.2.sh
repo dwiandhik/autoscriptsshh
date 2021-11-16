@@ -12,7 +12,7 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ifconfig.co);
 versi=$(cat /home/ver)
-if [[ $versi == 1.4 ]]; then
+if [[ $versi == 1.3 ]]; then
 echo "You Have The Latest Version"
 exit 0
 fi
@@ -51,9 +51,8 @@ chmod +x xp
 chmod +x limit-speed
 echo "0 6 * * * root clear-log && reboot" > /etc/crontab
 echo "0 0 * * * root xp" > /etc/crontab
-echo "0 1 * * * root delete > /etc/crontab
 cd
-echo "1.4" > /home/ver
+echo "1.3" > /home/ver
 clear
 echo " Fix minor Bugs"
 echo " Now You Can Change Port Of Some Services"
