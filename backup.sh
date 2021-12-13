@@ -11,7 +11,7 @@ echo " Enter Your Email To Receive Message"
 read -rp " Email: " -e email
 sleep 1
 echo Membuat Directory
-mkdir /root/backup
+mkdir /root/backupp
 sleep 1
 echo Start Backup
 clear
@@ -44,7 +44,7 @@ $link
 If you want to restore data, please enter the link above.
 
 Thank You For Using Our Services" | mail -s "Backup Data" $email
-rm -rf /root/backup
+rm -rf /root/backupp
 rm -r /root/$IP-$date.zip
 echo "Done"
 echo "Please Check Your Email"
